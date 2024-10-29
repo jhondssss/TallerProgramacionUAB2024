@@ -12,7 +12,7 @@ class Vehiculo:
     def detener(self) -> None:
         print("Deteniendo vehículo")  
         
-class Clase:
+class Clase1(Vehiculo):
     def __init__(self) -> None:
         super().__init__(marca, modelo)
         self.puertas = puertas
@@ -20,7 +20,7 @@ class Clase:
         return self.puertas    
        
     
-class Clase:
+class Clase2(Vehiculo):
     def __init__(self) -> None:
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
