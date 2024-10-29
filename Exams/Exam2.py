@@ -28,12 +28,15 @@ class Coche(Vehiculo):
         print("Deteniendo Coche")  
        
     
-class Clase2(Vehiculo):
+# REFACTORIZAR e Implementar una nueva lógica que utilice el valor de un nuevo parámetro “amortiguación” (que reciba el valor por el usuario) en la otra clase Hija o SubClase.
+# - Si la amortiguación es "Simple" o "Doble", se debe mostrar: "La bicicleta tiene una amortiguación [tipo]." (Donde "[tipo]" es el valor ingresado por el usuario).
+# - Si no es ninguno de estos valores, se debe mostrar: "No existe una amortiguación [tipo].”
+class Bicicleta(Vehiculo):
     def __init__(self, marca, modelo, amortiguacion) -> None:
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
         
     def encender(self) -> None: 
-        print("Encendiendo Clase2")
+        print("Encendiendo Bicicleta")
     def detener(self) -> None:
-        print("Deteniendo Clase2")  
+        print("Deteniendo Bicicleta")  
