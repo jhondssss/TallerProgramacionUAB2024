@@ -57,8 +57,13 @@ class Bicicleta(Vehiculo):
     def detener(self) -> None:
         print("Deteniendo Bicicleta")  
         
-auto = Coche("Nissan", "Murano", 4, 2023)
-auto.validarAnhoDeCirculacion()
+auto = Coche("Nissan", "Murano", 4, 2023) #Aqui se esta instanciando una clase creando un "Objeto"
+auto.validarAnhoDeCirculacion() # Dicho objeto nos permite reutilizar todos los metodos/funciones de la clase instanciada
+auto.get_marca() #llamamos al resto de metodos
+auto.get_puertas()
+auto.encender()
+auto.detener()
+
 
 bicicleta = Bicicleta("Santosa", "BMX", "Simple")
 bicicleta.verificarTipoAmortiguacion()
