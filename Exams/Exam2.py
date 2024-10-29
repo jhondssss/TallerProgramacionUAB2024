@@ -1,12 +1,12 @@
 class Vehiculo:
     def __init__(self, marca, modelo) -> None:
-        self.marca = marca
-        self.modelo = modelo
+        self.__marca = marca
+        self.__modelo = modelo
         
     def get_marca(self) -> str: 
-        return self.marca
+        return self.__marca
     def get_tipo(self) -> str: 
-        return self.modelo
+        return self.__modelo
     def encender(self) -> None: 
         print("Encendiendo vehículo")
     def detener(self) -> None:
