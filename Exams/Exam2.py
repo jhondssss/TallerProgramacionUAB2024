@@ -1,4 +1,4 @@
-class Clase:
+class Vehiculo:
     def __init__(self) -> None:
         self.marca = marca
         self.modelo = modelo
