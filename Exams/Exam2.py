@@ -1,5 +1,5 @@
 class Vehiculo:
-    def __init__(self) -> None:
+    def __init__(self, marca, modelo) -> None:
         self.marca = marca
         self.modelo = modelo
         
@@ -13,7 +13,7 @@ class Vehiculo:
         print("Deteniendo vehículo")  
         
 class Clase1(Vehiculo):
-    def __init__(self) -> None:
+    def __init__(self,marca, modelo, puertas) -> None:
         super().__init__(marca, modelo)
         self.puertas = puertas
     def get_puertas(self) -> int: 
@@ -21,7 +21,7 @@ class Clase1(Vehiculo):
        
     
 class Clase2(Vehiculo):
-    def __init__(self) -> None:
+    def __init__(self, marca, modelo, amortiguacion) -> None:
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
         
