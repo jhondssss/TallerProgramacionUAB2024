@@ -46,6 +46,12 @@ class Bicicleta(Vehiculo):
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
         
+    def verificarTipoAmortiguacion(self):
+        if self.amortiguacion == "Simple" or self.amortiguacion == "Doble":
+            print("La bicicleta tiene una amortiguacion --> " + self.amortiguacion)
+        else:
+            print("No existe ese tipo de amortiguación --> " + self.amortiguacion)
+        
     def encender(self) -> None: 
         print("Encendiendo Bicicleta")
     def detener(self) -> None:
@@ -53,3 +59,6 @@ class Bicicleta(Vehiculo):
         
 auto = Coche("Nissan", "Murano", 4, 2023)
 auto.validarAnhoDeCirculacion()
+
+bicicleta = Bicicleta("Santosa", "BMX", "Simple")
+bicicleta.verificarTipoAmortiguacion()
