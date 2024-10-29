@@ -18,6 +18,11 @@ class Clase1(Vehiculo):
         self.puertas = puertas
     def get_puertas(self) -> int: 
         return self.puertas    
+    
+    def encender(self) -> None: 
+        print("Encendiendo clase1")
+    def detener(self) -> None:
+        print("Deteniendo clase1")  
        
     
 class Clase2(Vehiculo):
@@ -25,3 +30,7 @@ class Clase2(Vehiculo):
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
         
+    def encender(self) -> None: 
+        print("Encendiendo Clase2")
+    def detener(self) -> None:
+        print("Deteniendo Clase2")  
