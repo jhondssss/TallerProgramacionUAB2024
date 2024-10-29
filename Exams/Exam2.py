@@ -32,9 +32,13 @@ class Coche(Vehiculo):
 # - Si la amortiguación es "Simple" o "Doble", se debe mostrar: "La bicicleta tiene una amortiguación [tipo]." (Donde "[tipo]" es el valor ingresado por el usuario).
 # - Si no es ninguno de estos valores, se debe mostrar: "No existe una amortiguación [tipo].”
 class Bicicleta(Vehiculo):
-    def __init__(self, marca, modelo, amortiguacion) -> None:
+    def __init__(self, marca, modelo, amortiguacion, añoFabricacionCoche) -> None:
         super().__init__(marca, modelo) 
         self.amortiguacion = amortiguacion
+        
+        self.añoFabricacionCoche = añoFabricacionCoche
+        self.añosValidos = [2020,2021,2022,2023,2024]  # Años de fabricación válidos
+    
         
     def encender(self) -> None: 
         print("Encendiendo Bicicleta")
