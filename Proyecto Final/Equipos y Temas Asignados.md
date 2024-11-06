@@ -3,7 +3,7 @@ PROYECTO FINAL
 
 Random teams
 Team 1: WHATSAPP
-ROCHA COSSIO Julieta Noemi
+ROCHA COSSIO Julieta Noemi --> Abdiel Orellana Coria
 ROJAS . Jose Carlos
 COPA DIAZ Jimmy Jose
 VARGAS HUMEREZ Yasser Emanuel
@@ -17,7 +17,7 @@ CABRERA CONDORI Jhoseb Pablo
 Team 3: PINTEREST (C- GM)
 MENA NOKY Jair Andres
 CHACMI PACO Elia
-ORELLANA CORIA Abdiel Isaac
+ORELLANA CORIA Abdiel Isaac --> cambio Whatsapp
 HURTADO CHICABA Triana Belen
 
 Team 4: LOL
