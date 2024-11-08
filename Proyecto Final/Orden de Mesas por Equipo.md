@@ -1,9 +1,10 @@
 DISTRIBUCIÓN DE MESAS.
-REVISAR archivo imagen Distribucion en Aula.png
+(REVISAR archivo imagen Distribucion en Aula.png)
 
 A partir de las siguientes clases por favor sentarse por grupos, para evitar perder el tiempo definiendo qué equipo se sienta dónde, se he generado aleatoriamente los equipos asignados por mesa, estos equipos llegarán al aula y todos deberán respetar las mesas que les ha tocado a su equipo y no sentarse donde no les corresponde).
 
 Distribución:
+![](../Proyecto%20Final/Distribución%20en%20Aula.png)
 
 |    PIZARRA   -   TELEVISOR/PIZARRA   -     PIZARRA
 |             |             |             |
