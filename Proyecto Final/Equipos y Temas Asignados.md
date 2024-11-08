@@ -17,7 +17,7 @@ CABRERA CONDORI Jhoseb Pablo
 Team 3: PINTEREST (C- GM)
 MENA NOKY Jair Andres
 CHACMI PACO Elia
-ORELLANA CORIA Abdiel Isaac --> cambio Whatsapp
+ORELLANA CORIA Abdiel Isaac --> cambio Whatsapp // Entra TARQUI VASQUEZ Brian Rehi
 HURTADO CHICABA Triana Belen
 
 Team 4: LOL
