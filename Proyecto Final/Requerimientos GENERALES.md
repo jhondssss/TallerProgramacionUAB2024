@@ -132,13 +132,13 @@ Menú Twitter:
 VER IMÁGENES DE REFERENCIA (Cómo lo vería un Usuario Final)
 
 Uso de Menú por CONSOLA:
-![](../Proyecto%20Final/MenuParte1.png)
+![Menú 1](../Proyecto%20Final/MenuParte1.png)
 ************************
-![](../Proyecto%20Final/MenuParte2.png)
+![Menú 2](../Proyecto%20Final/MenuParte2.png)
 ************************
-![](../Proyecto%20Final/MenuParte3.png)
+![Menú 3](../Proyecto%20Final/MenuParte3.png)
 ************************
-![](../Proyecto%20Final/MenuParte4Final.png)
+![Menú 4](../Proyecto%20Final/MenuParte4Final.png)
 
 ///////////////////////////////////////////////////
 Nota Importante sobre Identificadores:
