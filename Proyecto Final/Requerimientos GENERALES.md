@@ -34,11 +34,13 @@ La evaluación se basará en la funcionalidad de la aplicación, la calidad del 
 
 Requisitos para el Desarrollo del Sistema:
 
-1 Su sistema debe implementar las cuatro operaciones básicas de CRUD (Crear, Leer, Actualizar, Eliminar). Se valorarán especialmente los proyectos que incluyan al menos dos de los tres enunciados desarrollados, junto con sus funcionalidades correspondientes para cada operación. Sin embargo, si su proyecto cuenta con al menos una funcionalidad (enunciado) para cada operación del CRUD, se considerará como mínimamente desarrollado y suficiente para su defensa.
+1 Su sistema debe implementar las cuatro operaciones básicas de CRUD (Crear, Leer, Actualizar, Eliminar). Se le ha entregado multiples enunciados para cada operación a cada Equipo, sin embargo NO DEBEN desarrollar todas, sin embargo se valorarán especialmente los proyectos que incluyan al menos 2 enunciados (funcionalidades) desarrollados por cada operación del CRUD. 
+
+Sin embargo, si su proyecto cuenta con al menos 1 funcionalidad (enunciado) para cada operación del CRUD, se considerará como mínimamente desarrollado y suficiente para su defensa.
 
 Al seleccionar los enunciados con su equipo, es crucial que lo hagan de manera cuidadosa, ya que algunos enunciados pueden depender de otros para funcionar correctamente.
 
-Nota Importante: Los enunciados están relacionados con el producto real que les ha sido asignado. Al evaluar su proyecto, se tendrá en cuenta que cada enunciado cumpla con su título. Por ejemplo, si el enunciado indica "Listar publicaciones", su sistema debe listar publicaciones y no realizar ni mostrar otras funcionalidades que no se alineen con el contexto lógico de lo solicitado.
+Nota Importante: Los enunciados están relacionados con el producto real que les ha sido asignado. Al evaluar su proyecto, se tendrá en cuenta que cada enunciado cumpla con su título. Por ejemplo, si el enunciado indica "Listar publicaciones", su sistema debe listar publicaciones y NO realizar ni mostrar otro comportamiento que no esté alineado con el contexto lógico de lo solicitado.
 
 2 El desarrollo de su sistema debe ser realizado por todos los miembros del equipo. Para garantizar una colaboración efectiva, cada integrante debe enviar sus contribuciones de manera individual cada vez que complete una funcionalidad.
 
