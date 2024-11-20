@@ -21,7 +21,7 @@
 | 10 | TIKTOK | [AlvaroRiveraCarhuani/PROYECTO-TALLER](https://github.com/AlvaroRiveraCarhuani/PROYECTO-TALLER) |
 | 11 | NETFLIX | [Enlace Repositorio](URL del repositorio) |
 | 12 | TWITTER | [Enlace Repositorio](URL del repositorio) |
-| 13 | CALL OF DUTY | [Enlace Repositorio](URL del repositorio) |
+| 13 | CALL OF DUTY | [Elger-enrique-marquez-arze/proyectotaller](https://github.com/Elger-enrique-marquez-arze/proyectotaller) |
 | ... | | |
 
 ## Descripción
