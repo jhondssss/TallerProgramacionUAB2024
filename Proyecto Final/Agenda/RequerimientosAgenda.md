@@ -1,41 +1,48 @@
 
 ///////////////////////////////////////////////////
-                         ENUNCIADOS
+# ENUNCIADOS
 
-
-Create
-Enunciado 1: Creación de un Nuevo Contacto Desarrollar una función que permita a un usuario crear un nuevo contacto en su agenda. La función debe solicitar:
+## Create
+#### Enunciado 1: Creación de un Nuevo Contacto 
+**_Desarrollar una función que permita a un usuario crear un nuevo contacto en su agenda. La función debe solicitar:_**
 
 Nombre del contacto: El nombre completo del contacto.
 Número de teléfono: El número de teléfono del contacto.
 Correo electrónico (opcional): La dirección de correo electrónico del contacto.
 Dirección (opcional): La dirección física del contacto.
-La función debe almacenar el nuevo contacto y confirmar su creación al usuario.
 
-Enunciado 2: Creación de un Nuevo Evento Desarrollar una función que permita a un usuario crear un nuevo evento en su agenda. La función debe solicitar:
+__La función debe almacenar el nuevo contacto y confirmar su creación al usuario.__
+
+#### Enunciado 2: Creación de un Nuevo Evento 
+**_Desarrollar una función que permita a un usuario crear un nuevo evento en su agenda. La función debe solicitar:_**
 
 Título del evento: El título o nombre del evento.
 Fecha y hora: La fecha y hora en que se llevará a cabo el evento.
 Descripción (opcional): Una breve descripción del evento.
 Ubicación (opcional): La ubicación donde se realizará el evento.
-La función debe almacenar el nuevo evento y confirmar su creación al usuario.
 
-Enunciado 3: Creación de una Nueva Tarea Desarrollar una función que permita a un usuario agregar una nueva tarea a su lista de tareas. La función debe solicitar:
+__La función debe almacenar el nuevo evento y confirmar su creación al usuario.__
+
+#### Enunciado 3: Creación de una Nueva Tarea 
+**_Desarrollar una función que permita a un usuario agregar una nueva tarea a su lista de tareas. La función debe solicitar:_**
 
 Título de la tarea: El título o nombre de la tarea.
 Descripción (opcional): Una breve descripción de la tarea.
 Fecha de vencimiento (opcional): La fecha límite para completar la tarea.
 Prioridad (opcional): El nivel de prioridad de la tarea (baja, media, alta).
-La función debe almacenar la nueva tarea y confirmar su adición al usuario.
 
-Read
-Enunciado 1: Visualización de Contactos Desarrollar una función que permita a un usuario ver todos los contactos almacenados en su agenda. La función debe mostrar:
+__La función debe almacenar la nueva tarea y confirmar su adición al usuario.__
+
+## Read
+#### Enunciado 1: Visualización de Contactos 
+**_Desarrollar una función que permita a un usuario ver todos los contactos almacenados en su agenda. La función debe mostrar:_**
 
 Lista de contactos: Incluir la siguiente información para cada contacto:
 Nombre: El nombre completo del contacto.
 Número de teléfono: El número de teléfono del contacto.
 Correo electrónico: La dirección de correo electrónico (si está disponible).
 Dirección: La dirección física (si está disponible).
+
 La función debe permitir al usuario buscar contactos por nombre.
 
 Enunciado 2: Visualización de Eventos Desarrollar una función que permita a un usuario ver todos los eventos programados en su agenda. La función debe mostrar:
