@@ -1,179 +1,152 @@
-# ENUNCIADOS
+///////////////////////////////////////////////////
+                         ENUNCIADOS
 
 ## Create
 
-#### Enunciado 1: Creación de un Nuevo Campeón
-**Descripción:** Desarrollar una función que permita a un usuario agregar un nuevo campeón al juego. La función debe solicitar:
+#### Enunciado 1: Creación de una Nueva Publicación
 
-- **Nombre del campeón:** El nombre del nuevo campeón.
-- **Rol del campeón:** El rol que desempeñará (por ejemplo, Asesino, Mago, Tanque, etc.).
-- **Descripción del campeón:** Un texto que explique las habilidades y la historia del campeón.
-- **Habilidades:** Detallar las habilidades del campeón, incluyendo su habilidad pasiva y habilidades activas.
+**Descripción:** Desarrollar una función que permita a un usuario crear una nueva publicación en su perfil. La función debe solicitar:
 
-**Resultado:** La función debe almacenar el nuevo campeón y confirmar su creación al usuario.
+- **Contenido de la publicación:** El texto que el usuario desea publicar.
+- **Imágenes o videos (opcional):** Archivos multimedia que el usuario desea adjuntar a la publicación.
+- **Etiquetas (opcional):** Palabras clave o menciones a otros usuarios que se pueden incluir en la publicación.
 
----
-
-#### Enunciado 2: Creación de un Nuevo Skin
-**Descripción:** Desarrollar una función que permita a un usuario crear un nuevo skin para un campeón existente. La función debe solicitar:
-
-- **ID del campeón:** El identificador del campeón para el cual se desea crear un skin.
-- **Nombre del skin:** El nombre del nuevo skin.
-- **Descripción del skin:** Un texto que explique las características del skin.
-- **Precio:** El costo del skin en la tienda del juego.
-
-**Resultado:** La función debe almacenar el nuevo skin y confirmar su creación al usuario.
+**Resultado:** La función debe almacenar la nueva publicación y confirmar su creación al usuario.
 
 ---
 
-#### Enunciado 3: Creación de una Nueva Partida
-**Descripción:** Desarrollar una función que permita a un usuario crear una nueva partida. La función debe solicitar:
+#### Enunciado 2: Creación de un Comentario en una Publicación
 
-- **Modo de juego:** El tipo de partida (por ejemplo, Clasificatoria, Normal, ARAM).
-- **Número de jugadores:** La cantidad de jugadores que participarán en la partida.
-- **Duración estimada:** Un tiempo estimado para la duración de la partida.
+**Descripción:** Desarrollar una función que permita a un usuario dejar un comentario en una publicación. La función debe solicitar:
 
-**Resultado:** La función debe iniciar la nueva partida y confirmar su creación al usuario.
+- **ID de la publicación:** El identificador de la publicación en la que se desea comentar.
+- **Contenido del comentario:** El texto del comentario que se desea dejar.
+
+**Resultado:** La función debe almacenar el nuevo comentario y confirmar su publicación al usuario.
+
+---
+
+#### Enunciado 3: Creación de una Respuesta a un Comentario
+
+**Descripción:** Desarrollar una función que permita a un usuario responder a un comentario en una publicación. La función debe solicitar:
+
+- **ID de la publicación:** El identificador de la publicación que contiene el comentario.
+- **ID del comentario:** El identificador del comentario al que se desea responder.
+- **Contenido de la respuesta:** El texto de la respuesta que se desea dejar.
+
+**Resultado:** La función debe almacenar la nueva respuesta y confirmar su publicación al usuario.
 
 ---
 
 ## Read
 
-#### Enunciado 1: Visualización de Campeones
-**Descripción:** Desarrollar una función que permita a un usuario ver una lista de todos los campeones disponibles en el juego. La función debe mostrar:
+#### Enunciado 1: Visualización del Feed de Publicaciones
 
-- **Lista de campeones:** Mostrar todos los campeones, incluyendo:
-  - **Nombre del campeón:** El nombre del campeón.
-  - **Rol:** El rol que desempeña.
-  - **Descripción breve:** Un resumen corto de las habilidades del campeón.
+**Descripción:** Desarrollar una función que permita a un usuario ver su feed de publicaciones. La función debe mostrar:
 
-**Resultado:** La función debe permitir al usuario filtrar campeones por rol o popularidad.
+- **Lista de publicaciones:** Incluir la siguiente información para cada publicación:
+  - **Nombre del autor:** El nombre del usuario que publicó.
+  - **Contenido de la publicación:** El texto de la publicación.
+  - **Número de reacciones:** La cantidad de "me gusta" y otras reacciones.
+  - **Comentarios:** Un resumen de los comentarios más recientes.
 
----
-
-#### Enunciado 2: Visualización de Skins de un Campeón
-**Descripción:** Desarrollar una función que permita a un usuario ver todos los skins disponibles para un campeón específico. La función debe solicitar:
-
-- **ID del campeón:** El identificador del campeón del cual se desean ver los skins.
-- **Lista de skins:** Mostrar todos los skins del campeón, incluyendo:
-  - **Nombre del skin:** El título del skin.
-  - **Descripción:** Un breve texto que explique las características del skin.
-  - **Precio:** El costo del skin en la tienda.
-
-**Resultado:** La función debe manejar el caso en que no existan skins para el campeón.
+**Resultado:** La función debe permitir al usuario navegar por su feed de publicaciones.
 
 ---
 
-#### Enunciado 3: Visualización de Partidas Activas
-**Descripción:** Desarrollar una función que permita a un usuario ver todas las partidas activas en el juego. La función debe mostrar:
+#### Enunciado 2: Visualización de Comentarios en una Publicación
 
-- **Lista de partidas:** Mostrar todas las partidas en curso, incluyendo:
-  - **ID de la partida:** El identificador de la partida.
-  - **Modo de juego:** El tipo de partida.
-  - **Número de jugadores:** La cantidad de jugadores que participan.
-  - **Duración actual:** El tiempo que ha pasado desde el inicio de la partida.
+**Descripción:** Desarrollar una función que permita a un usuario ver todos los comentarios de una publicación específica. La función debe solicitar:
 
-**Resultado:** La función debe permitir al usuario unirse a una partida si hay espacio disponible.
+- **ID de la publicación:** El identificador de la publicación de la cual se desean ver los comentarios.
+
+**Resultado:** La función debe mostrar:
+- **Lista de comentarios:** Incluir la siguiente información para cada comentario:
+  - **Nombre del autor:** Quien hizo el comentario.
+  - **Contenido del comentario:** El texto del comentario.
+  - **Número de reacciones al comentario:** La cantidad de reacciones que ha recibido el comentario.
+
+---
+
+#### Enunciado 3: Visualización del Perfil de un Usuario
+
+**Descripción:** Desarrollar una función que permita a un usuario ver su propio perfil o el de otro usuario. La función debe mostrar:
+
+- **Nombre completo:** El nombre del usuario.
+- **Foto de perfil:** La imagen de perfil del usuario.
+- **Lista de publicaciones:** Mostrar todas las publicaciones realizadas por el usuario.
+
+**Resultado:** La función debe permitir al usuario ver la información de perfil seleccionada.
 
 ---
 
 ## Update
 
-#### Enunciado 1: Actualización de un Campeón
-**Descripción:** Desarrollar una función que permita a un usuario actualizar la información de un campeón existente. La función debe solicitar:
+#### Enunciado 1: Actualización de una Publicación
 
-- **ID del campeón:** El identificador del campeón que se desea actualizar.
-- **Nuevo nombre del campeón (opcional):** Un nuevo nombre para el campeón.
-- **Nuevo rol del campeón (opcional):** Un nuevo rol que desempeñará.
-- **Nueva descripción del campeón (opcional):** Un texto actualizado que explique las habilidades y la historia del campeón.
+**Descripción:** Desarrollar una función que permita a un usuario actualizar el contenido de una publicación existente. La función debe solicitar:
 
-**Resultado:** La función debe actualizar la información del campeón y confirmar los cambios al usuario.
+- **ID de la publicación:** El identificador de la publicación que se desea actualizar.
+- **Nuevo contenido de la publicación:** El nuevo texto que se desea publicar.
 
----
-
-#### Enunciado 2: Actualización de un Skin
-
-**Descripción:** Desarrollar una función que permita a un usuario actualizar la información de un skin existente. La función debe solicitar:
-
-
-- **ID del skin:** El identificador del skin que se desea actualizar.
-
-- **Nuevo nombre del skin (opcional):** Un nuevo nombre para el skin.
-
-- **Nueva descripción del skin (opcional):** Un texto actualizado que explique las características del skin.
-
-- **Nuevo precio (opcional):** El costo actualizado del skin en la tienda del juego.
-
-
-**Resultado:** La función debe actualizar la información del skin y confirmar los cambios al usuario.
-
+**Resultado:** La función debe actualizar la publicación y confirmar los cambios al usuario.
 
 ---
 
+#### Enunciado 2: Actualización de un Comentario
 
-#### Enunciado 3: Actualización de una Partida
+**Descripción:** Desarrollar una función que permita a un usuario actualizar un comentario existente en una publicación. La función debe solicitar:
 
-**Descripción:** Desarrollar una función que permita a un usuario actualizar la información de una partida en curso. La función debe solicitar:
+- **ID de la publicación:** El identificador de la publicación donde se encuentra el comentario.
+- **ID del comentario:** El identificador del comentario que se desea actualizar.
+- **Nuevo contenido del comentario:** El texto actualizado del comentario.
 
-
-- **ID de la partida:** El identificador de la partida que se desea actualizar.
-
-- **Nuevo modo de juego (opcional):** Cambiar el tipo de partida.
-
-- **Número de jugadores (opcional):** Actualizar la cantidad de jugadores que participan en la partida.
-
-- **Nueva duración estimada (opcional):** Cambiar el tiempo estimado de duración de la partida.
-
-
-**Resultado:** La función debe actualizar la información de la partida y confirmar los cambios al usuario.
-
+**Resultado:** La función debe actualizar el comentario y confirmar los cambios al usuario.
 
 ---
 
+#### Enunciado 3: Actualización de una Respuesta a un Comentario
+
+**Descripción:** Desarrollar una función que permita a un usuario actualizar una respuesta a un comentario. La función debe solicitar:
+
+- **ID de la publicación:** El identificador de la publicación que contiene el comentario.
+- **ID del comentario:** El identificador del comentario al que se desea actualizar la respuesta.
+- **ID de la respuesta:** El identificador de la respuesta que se desea actualizar.
+- **Nuevo contenido de la respuesta:** El texto actualizado de la respuesta.
+
+**Resultado:** La función debe actualizar la respuesta y confirmar los cambios al usuario.
+
+---
 
 ## Delete
 
+#### Enunciado 1: Eliminación de una Publicación
 
-#### Enunciado 1: Eliminación de un Campeón
+**Descripción:** Desarrollar una función que permita a un usuario eliminar una publicación de su perfil. La función debe solicitar:
 
-**Descripción:** Desarrollar una función que permita a un usuario eliminar un campeón del juego. La función debe solicitar:
+- **ID de la publicación:** El identificador de la publicación que se desea eliminar.
 
-
-- **ID del campeón:** El identificador del campeón que se desea eliminar.
-
-
-**Resultado:** La función debe eliminar el campeón y confirmar la eliminación al usuario, manejando el caso en que el campeón no exista.
-
+**Resultado:** La función debe eliminar la publicación y confirmar la eliminación al usuario, manejando el caso en que la publicación no exista.
 
 ---
 
+#### Enunciado 2: Eliminación de un Comentario
 
-#### Enunciado 2: Eliminación de un Skin
+**Descripción:** Desarrollar una función que permita a un usuario eliminar un comentario de una publicación. La función debe solicitar:
 
-**Descripción:** Desarrollar una función que permita a un usuario eliminar un skin de un campeón. La función debe solicitar:
+- **ID de la publicación:** El identificador de la publicación que contiene el comentario.
+- **ID del comentario:** El identificador del comentario que se desea eliminar.
 
-
-- **ID del skin:** El identificador del skin que se desea eliminar.
-
-
-**Resultado:** La función debe eliminar el skin y confirmar la eliminación al usuario, manejando el caso en que el skin no exista.
-
+**Resultado:** La función debe eliminar el comentario y confirmar la eliminación al usuario, manejando el caso en que el comentario no exista.
 
 ---
 
+#### Enunciado 3: Eliminación de una Respuesta a un Comentario
 
-#### Enunciado 3: Eliminación de una Partida
+**Descripción:** Desarrollar una función que permita a un usuario eliminar una respuesta a un comentario. La función debe solicitar:
 
-**Descripción:** Desarrollar una función que permita a un usuario cancelar o eliminar una partida en curso. La función debe solicitar:
+- **ID de la publicación:** El identificador de la publicación que contiene el comentario.
+- **ID del comentario:** El identificador del comentario que contiene la respuesta.
+- **ID de la respuesta:** El identificador de la respuesta que se desea eliminar.
 
-
-- **ID de la partida:** El identificador de la partida que se desea eliminar.
-
-
-**Resultado:** La función debe cancelar la partida y confirmar la eliminación al usuario, manejando el caso en que la partida no exista.
-
-
----
-
-
---- Ante cualquier duda consultar con el Docente/Auxiliar. ---
+**Resultado:** La función debe eliminar la respuesta y confirmar la eliminación al usuario, manejando el caso en que la respuesta no exista.
