@@ -15,7 +15,7 @@
 | 4 | LOL | [Enlace Repositorio](URL del repositorio) |
 | 5 | FACEBOOK | [Enlace Repositorio](URL del repositorio) |
 | 6 | INSTAGRAM | [AnthonyAdriazola/Instagram](https://github.com/AnthonyAdriazola/Instagram) |
-| 7 | AMONG US | [Enlace Repositorio](URL del repositorio) |
+| 7 | STARCRAFT | [Enlace Repositorio](URL del repositorio) |
 | 8 | SPOTIFY | [Enlace Repositorio](URL del repositorio) |
 | 9 | CALENDARIO(AGENDA) | [dlopez2003/agenda](https://github.com/dlopez2003/agenda) |
 | 10 | TIKTOK | [AlvaroRiveraCarhuani/PROYECTO-TALLER](https://github.com/AlvaroRiveraCarhuani/PROYECTO-TALLER) |
