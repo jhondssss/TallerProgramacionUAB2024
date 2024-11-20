@@ -9,10 +9,20 @@
 
 | N° | Grupo | Repositorio |
 |:---:|-------|-------------|
-| 1 | TikTok | [AlvaroRiveraCarhuani/TallerProgramacionUAB2024](https://github.com/AlvaroRiveraCarhuani/TallerProgramacionUAB2024.git) |
-| 2 | [Nombre Grupo] | [Enlace Repositorio](URL del repositorio) |
-| 3 | [Nombre Grupo] | [Enlace Repositorio](URL del repositorio) |
+| 1 | WHATSAPP | [josecarlosrojas12/whatsap](https://github.com/josecarlosrojas12/whatsap) |
+| 2 | YOUTUBE |  [AlvaroRiveraCarhuani/TallerProgramacionUAB2024](https://github.com/AlvaroRiveraCarhuani/TallerProgramacionUAB2024.git) |
+| 3 | PINTEREST | [JairMenaN/PinterestTallerProgramacion](https://github.com/JairMenaN/PinterestTallerProgramacion) |
+| 4 | LOL | [Enlace Repositorio](URL del repositorio) |
+| 5 | FACEBOOK | [Enlace Repositorio](URL del repositorio) |
+| 6 | INSTAGRAM | [AnthonyAdriazola/Instagram](https://github.com/AnthonyAdriazola/Instagram) |
+| 7 | AMONG US | [Enlace Repositorio](URL del repositorio) |
+| 8 | SPOTIFY | [Enlace Repositorio](URL del repositorio) |
+| 9 | CALENDARIO(AGENDA) | [dlopez2003/agenda](https://github.com/dlopez2003/agenda) |
+| 10 | TIKTOK | [AlvaroRiveraCarhuani/PROYECTO-TALLER](https://github.com/AlvaroRiveraCarhuani/PROYECTO-TALLER) |
+| 11 | NETFLIX | [Enlace Repositorio](URL del repositorio) |
+| 12 | TWITTER | [Enlace Repositorio](URL del repositorio) |
+| 13 | CALL OF DUTY | [Enlace Repositorio](URL del repositorio) |
 | ... | | |
 
 ## Descripción
-Detalles adicionales sobre el taller de programación...
+...
