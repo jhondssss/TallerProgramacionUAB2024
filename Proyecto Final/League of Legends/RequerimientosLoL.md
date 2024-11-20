@@ -1,96 +1,139 @@
+# ENUNCIADOS
 
-///////////////////////////////////////////////////
-                         ENUNCIADOS
+## Create
 
-Create
-Enunciado 1: Creación de un Nuevo Perfil Desarrollar una función que permita a un usuario crear un nuevo perfil. La función debe solicitar:
+#### Enunciado 1: Creación de un Nuevo Campeón
 
-Nombre: El nombre del usuario.
-Apellido: El apellido del usuario.
-Fecha de nacimiento: La fecha de nacimiento del usuario.
-Género: El género del usuario.
-Correo electrónico: El correo electrónico del usuario.
-Contraseña: La contraseña del usuario.
-La función debe almacenar el nuevo perfil y confirmar su creación al usuario.
+**Descripción:** Desarrollar una función que permita a un administrador crear un nuevo campeón en el juego. La función debe solicitar:
 
-Enunciado 2: Creación de una Nueva Publicación Desarrollar una función que permita a un usuario crear una nueva publicación en su muro. La función debe solicitar:
+- **Nombre del campeón:** El nombre del nuevo campeón.
+- **Rol:** El rol del campeón (por ejemplo, Mago, Guerrero, Soporte).
+- **Habilidades:** Una descripción de las habilidades del campeón.
 
-Contenido: El texto o contenido de la publicación.
-La función debe almacenar la nueva publicación y confirmar su creación al usuario.
+**Resultado:** La función debe almacenar el nuevo campeón y confirmar su creación al administrador.
 
-Enunciado 3: Creación de un Nuevo Grupo Desarrollar una función que permita a un usuario crear un nuevo grupo. La función debe solicitar:
+---
 
-Nombre del grupo: El nombre del grupo.
-Descripción: Una descripción del grupo.
-Privacidad: La configuración de privacidad del grupo (pública, privada o secreta).
-La función debe almacenar el nuevo grupo y confirmar su creación al usuario.
+#### Enunciado 2: Creación de un Nuevo Ítem
 
-Read
-Enunciado 1: Visualización de Perfiles Desarrollar una función que permita a un usuario ver una lista de perfiles de otros usuarios. La función debe mostrar:
+**Descripción:** Desarrollar una función que permita a un administrador crear un nuevo ítem en el juego. La función debe solicitar:
 
-Lista de perfiles: Mostrar todos los perfiles, incluyendo:
-Nombre: El nombre del usuario.
-Apellido: El apellido del usuario.
-Foto de perfil: La foto de perfil del usuario.
-Número de publicaciones: El número de publicaciones del usuario.
-La función debe permitir al usuario filtrar perfiles por nombre, apellido o popularidad.
+- **Nombre del ítem:** El nombre del nuevo ítem.
+- **Tipo:** El tipo de ítem (por ejemplo, arma, armadura).
+- **Costo:** El costo del ítem en oro.
 
-Enunciado 2: Visualización de Publicaciones de un Perfil Desarrollar una función que permita a un usuario ver todas las publicaciones de un perfil específico. La función debe solicitar:
+**Resultado:** La función debe almacenar el nuevo ítem y confirmar su creación al administrador.
 
-ID del perfil: El identificador del perfil del cual se desean ver las publicaciones.
-Lista de publicaciones: Mostrar todas las publicaciones del perfil, incluyendo:
-Contenido: El texto o contenido de la publicación.
-Fecha de creación: La fecha y hora en que se creó la publicación.
-La función debe manejar el caso en que no existan publicaciones para el perfil.
+---
 
-Enunciado 3: Visualización de Grupos Desarrollar una función que permita a un usuario ver una lista de grupos disponibles en la aplicación. La función debe mostrar:
+#### Enunciado 3: Creación de una Nueva Partida
 
-Lista de grupos: Mostrar todos los grupos, incluyendo:
-Nombre del grupo: El nombre del grupo.
-Descripción: Una descripción del grupo.
-Miembros: El número de miembros del grupo.
-La función debe permitir al usuario filtrar grupos por popularidad o categoría.
+**Descripción:** Desarrollar una función que permita a un jugador crear una nueva partida. La función debe solicitar:
 
-Enunciado 1: Actualización de un Perfil (continuación) Desarrollar una función que permita a un usuario actualizar la información de su perfil. La función debe solicitar:
+- **Modo de juego:** El modo de juego (por ejemplo, Normal, Clasificatoria).
+- **Número de jugadores:** La cantidad de jugadores que participarán en la partida.
 
-Nuevo nombre (opcional): Un nuevo nombre para el perfil.
-Nuevo apellido (opcional): Un nuevo apellido para el perfil.
-Nueva fecha de nacimiento (opcional): Una nueva fecha de nacimiento.
-Nuevo género (opcional): Un nuevo género.
-Nuevo correo electrónico (opcional): Un nuevo correo electrónico.
-Nueva contraseña (opcional): Una nueva contraseña.
-La función debe actualizar la información del perfil y confirmar los cambios al usuario.
+**Resultado:** La función debe almacenar la nueva partida y confirmar su creación al jugador.
 
-Enunciado 2: Actualización de una Publicación Desarrollar una función que permita a un usuario actualizar el contenido de una publicación existente. La función debe solicitar:
+---
 
-ID de la publicación: El identificador de la publicación que se desea actualizar.
-Nuevo contenido: El nuevo texto o contenido de la publicación.
-La función debe actualizar la publicación y confirmar los cambios al usuario.
+## Read
 
-Enunciado 3: Actualización de un Grupo Desarrollar una función que permita a un usuario actualizar la información de un grupo existente. La función debe solicitar:
+#### Enunciado 1: Visualización de Campeones
 
-ID del grupo: El identificador del grupo que se desea actualizar.
-Nuevo nombre del grupo (opcional): Un nuevo nombre para el grupo.
-Nueva descripción (opcional): Una nueva descripción del grupo.
-Nueva configuración de privacidad (opcional): Cambiar la configuración de privacidad del grupo.
-La función debe actualizar la información del grupo y confirmar los cambios al usuario.
+**Descripción:** Desarrollar una función que permita a los jugadores ver una lista de todos los campeones disponibles en el juego. La función debe mostrar:
 
-Delete
-Enunciado 1: Eliminación de un Perfil Desarrollar una función que permita a un usuario eliminar su perfil de la aplicación. La función debe solicitar:
+- **Lista de campeones:** Incluir el nombre, rol y habilidades de cada campeón.
 
-ID del perfil: El identificador del perfil que se desea eliminar.
-La función debe eliminar el perfil y confirmar la eliminación al usuario, manejando el caso en que el perfil no exista.
+**Resultado:** La función debe permitir a los jugadores buscar campeones por rol o nombre.
 
-Enunciado 2: Eliminación de una Publicación Desarrollar una función que permita a un usuario eliminar una publicación de su muro. La función debe solicitar:
+---
 
-ID de la publicación: El identificador de la publicación que se desea eliminar.
-La función debe eliminar la publicación y confirmar la eliminación al usuario, manejando el caso en que la publicación no exista.
+#### Enunciado 2: Visualización de Ítems
 
-Enunciado 3: Eliminación de un Grupo Desarrollar una función que permita a un usuario eliminar un grupo que ha creado. La función debe solicitar:
+**Descripción:** Desarrollar una función que permita a los jugadores ver una lista de todos los ítems disponibles en el juego. La función debe mostrar:
 
-ID del grupo: El identificador del grupo que se desea eliminar.
-La función debe eliminar el grupo y confirmar la eliminación al usuario, manejando el caso en que el grupo no exista.
+- **Lista de ítems:** Incluir el nombre, tipo y costo de cada ítem.
 
+**Resultado:** La función debe permitir a los jugadores filtrar ítems por tipo o costo.
 
+---
+
+#### Enunciado 3: Visualización de Partidas
+
+**Descripción:** Desarrollar una función que permita a los jugadores ver una lista de todas las partidas recientes. La función debe mostrar:
+
+- **Lista de partidas:** Incluir el ID, modo de juego y duración de cada partida.
+
+**Resultado:** La función debe permitir a los jugadores filtrar partidas por modo de juego o duración.
+
+---
+
+## Update
+
+#### Enunciado 1: Actualización de un Campeón
+
+**Descripción:** Desarrollar una función que permita a un administrador actualizar la información de un campeón existente. La función debe solicitar:
+
+- **ID del campeón:** El identificador del campeón que se desea actualizar.
+- **Nuevo nombre (opcional):** Un nuevo nombre para el campeón.
+- **Nuevo rol (opcional):** Un nuevo rol para el campeón.
+
+**Resultado:** La función debe actualizar la información del campeón y confirmar los cambios al administrador.
+
+---
+
+#### Enunciado 2: Actualización de un Ítem
+
+**Descripción:** Desarrollar una función que permita a un administrador actualizar la información de un ítem existente. La función debe solicitar:
+
+- **ID del ítem:** El identificador del ítem que se desea actualizar.
+- **Nuevo nombre (opcional):** Un nuevo nombre para el ítem.
+- **Nuevo costo (opcional):** Un nuevo costo para el ítem.
+
+**Resultado:** La función debe actualizar la información del ítem y confirmar los cambios al administrador.
+
+---
+
+#### Enunciado 3: Actualización de una Partida
+
+**Descripción:** Desarrollar una función que permita a un jugador actualizar la información de una partida existente. La función debe solicitar:
+
+- **ID de la partida:** El identificador de la partida que se desea actualizar.
+- **Nuevo número de jugadores (opcional):** La nueva cantidad de jugadores que participarán en la partida.
+
+**Resultado:** La función debe actualizar la información de la partida y confirmar los cambios al jugador.
+
+---
+
+## Delete
+
+#### Enunciado 1: Eliminación de un Campeón
+
+**Descripción:** Desarrollar una función que permita a un administrador eliminar un campeón del juego. La función debe solicitar:
+
+- **ID del campeón:** El identificador del campeón que se desea eliminar.
+
+**Resultado:** La función debe eliminar el campeón y confirmar la eliminación al administrador.
+
+---
+
+#### Enunciado 2: Eliminación de un Ítem
+
+**Descripción:** Desarrollar una función que permita a un administrador eliminar un ítem del juego. La función debe solicitar:
+
+- **ID del ítem:** El identificador del ítem que se desea eliminar.
+
+**Resultado:** La función debe eliminar el ítem y confirmar la eliminación al administrador.
+
+---
+
+#### Enunciado 3: Eliminación de una Partida
+
+**Descripción:** Desarrollar una función que permita a un jugador eliminar una partida existente. La función debe solicitar:
+
+- **ID de la partida:** El identificador de la partida que se desea eliminar.
+
+**Resultado:** La función debe eliminar la partida y confirmar la eliminación al jugador.
 
 --- Ante cualquier duda consultar con el Docente/Auxiliar. ---
