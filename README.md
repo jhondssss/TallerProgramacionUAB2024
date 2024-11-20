@@ -10,9 +10,9 @@
 | N° | Grupo | Repositorio |
 |:---:|-------|-------------|
 | 1 | WHATSAPP | [josecarlosrojas12/whatsap](https://github.com/josecarlosrojas12/whatsap) |
-| 2 | YOUTUBE |  [AlvaroRiveraCarhuani/TallerProgramacionUAB2024](https://github.com/AlvaroRiveraCarhuani/TallerProgramacionUAB2024.git) |
+| 2 | YOUTUBE |  [juniorsz-lol/base-de-datos](https://github.com/juniorsz-lol/base-de-datos) |
 | 3 | PINTEREST | [JairMenaN/PinterestTallerProgramacion](https://github.com/JairMenaN/PinterestTallerProgramacion) |
-| 4 | LOL | [juniorsz-lol/base-de-datos](https://github.com/juniorsz-lol/base-de-datos) |
+| 4 | LOL | [Enlace Repositorio](URL del repositorio) |
 | 5 | FACEBOOK | [Enlace Repositorio](URL del repositorio) |
 | 6 | INSTAGRAM | [AnthonyAdriazola/Instagram](https://github.com/AnthonyAdriazola/Instagram) |
 | 7 | AMONG US | [Enlace Repositorio](URL del repositorio) |
