@@ -3,7 +3,27 @@
 
 ## Create
 
-#### Enunciado 1: Creación de una Nueva Publicación
+
+#### Enunciado 1: Creación de una Cuenta de Usuario
+
+
+**Descripción:** Desarrollar una función que permita a un nuevo usuario registrarse en Facebook. La función debe solicitar:
+
+
+- **Nombre completo:** El nombre y apellido del usuario.
+
+- **Correo electrónico:** Una dirección de correo electrónico válida para la cuenta.
+
+- **Contraseña:** Una contraseña segura que el usuario utilizará para acceder a su cuenta.
+
+- **Fecha de nacimiento:** La fecha de nacimiento del usuario para verificar la edad.
+
+- **Género (opcional):** Selección del género del usuario.
+
+
+**Resultado:** La función debe crear una nueva cuenta de usuario y enviar un correo de verificación, mostrando un mensaje de éxito al usuario.
+
+#### Enunciado 2: Creación de una Nueva Publicación
 
 **Descripción:** Desarrollar una función que permita a un usuario crear una nueva publicación en su perfil. La función debe solicitar:
 
@@ -15,7 +35,7 @@
 
 ---
 
-#### Enunciado 2: Creación de un Comentario en una Publicación
+#### Enunciado 3: Creación de un Comentario en una Publicación
 
 **Descripción:** Desarrollar una función que permita a un usuario dejar un comentario en una publicación. La función debe solicitar:
 
@@ -26,7 +46,7 @@
 
 ---
 
-#### Enunciado 3: Creación de una Respuesta a un Comentario
+#### Enunciado 4: Creación de una Respuesta a un Comentario
 
 **Descripción:** Desarrollar una función que permita a un usuario responder a un comentario en una publicación. La función debe solicitar:
 
