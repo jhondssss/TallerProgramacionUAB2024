@@ -3,10 +3,10 @@ PROYECTO FINAL
 
 Random teams
 Team 1: WHATSAPP
-ROCHA COSSIO Julieta Noemi --> Abdiel Orellana Coria
+Abdiel Orellana Coria (De cuenta de ROCHA COSSIO Julieta Noemí por abandono)
 ROJAS . Jose Carlos
 COPA DIAZ Jimmy Jose
-VARGAS HUMEREZ Yasser Emanuel
+CHILALI CORTEZ Josue Jhoel (Intercambio con grupo 12 por VARGAS HUMEREZ Yasser Emanuel - Razones: Mismo Semestre y coordinación)
 
 Team 2: YOUTUBE
 SUNTURA ZAMBRANA Jose Junior
@@ -17,7 +17,7 @@ CABRERA CONDORI Jhoseb Pablo
 Team 3: PINTEREST (C- GM)
 MENA NOKY Jair Andres
 CHACMI PACO Elia
-ORELLANA CORIA Abdiel Isaac --> cambio Whatsapp // Entra TARQUI VASQUEZ Brian Rehi
+TARQUI VASQUEZ Brian Rehi
 HURTADO CHICABA Triana Belen
 
 Team 4: LOL
@@ -38,7 +38,7 @@ ADRIAZOLA CONDORI Diego Anthony
 VALERO HUANCA Yhoselin Yessica
 LOPEZ GUERRA Andre Alexis Orlando
 
-Team 7: AMONG US
+Team 7: StarCraft
 CHOQUE LUCANA Brian Diego
 CALATAYUD MAMANI John Alexander
 ALVAREZ CACERES Ariel
@@ -69,7 +69,7 @@ ROCHA ROCHA Erick
 MAMANI QUISPE Graciela
 
 Team 12: TWITTER/THREADS
-CHILALI CORTEZ Josue Jhoel
+VARGAS HUMEREZ Yasser Emanuel (Intercambio con grupo 1 por CHILALI CORTEZ Josue Jhoel,  - Razones: Mismo Semestre y coordinación)
 MENDOZA COCA Jhosep Andrei
 TITIRICO CHARCA Jhoel
 LEONARDO MAMANI Jhammil Alcides
